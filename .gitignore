@@ -1,0 +1,40 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+logs/
+*.log
+
+# Compiled files
+bin/
+target/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

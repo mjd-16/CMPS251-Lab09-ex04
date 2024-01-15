@@ -77,7 +77,7 @@ public class Vehicle implements Cleanable {
 
 	@Override
 	public String toString() {
-		return "Vehicle [plateNumber=" + plateNumber + ", wheels=" + wheels + ", weight=" + weight
+		return "Vehicle [plateNumber=" + plateNumber == null? "" : plateNumber + ", wheels=" + wheels + ", weight=" + weight
 				+ ", registrationDate=" + registrationDate == null? "" : registrationDate + ", cleaningCount=" + cleaningCount + "]";
 	}
 	
